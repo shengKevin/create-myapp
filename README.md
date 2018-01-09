@@ -9,6 +9,8 @@ create-react-app 目前包装的create-react-app， 后续提供自定义搭建�
 git clone https://github.com/shengKevin/create-myapp.git
 
 ## 安装 （后续功能完善发布到npm包上）
+npm install -g create-react-app
+
 npm install -g
 
 

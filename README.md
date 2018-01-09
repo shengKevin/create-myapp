@@ -6,13 +6,13 @@
 node
 create-react-app 目前包装的create-react-app， 后续提供自定义搭建方式
 
-## 使用教程
-
 git clone https://github.com/shengKevin/create-myapp.git
 
+## 安装 （后续功能完善发布到npm包上）
 npm install -g
 
-##命令
+
+## 使用教程
 
 ## 初始化
 

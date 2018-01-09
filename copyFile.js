@@ -14,7 +14,8 @@ const app = path.join(process.cwd(), name);
 
 function copyProject(src = '', isDir = false) {
     // const dest = src.replace('templates', name);
-    const dest = path.join(process.cwd(), name, src.split('/templates')[1] || '');
+    const tempname = src.split('/templates')[1] || '';
+    const dest = path.join(process.cwd(), name, tempname);
     if (isDir) {
         // dir
         fs.mkdir(dest);

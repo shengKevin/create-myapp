@@ -1,0 +1,19 @@
+{
+  "name": "create-myapp",
+  "version": "0.0.1",
+  "description": "create app cli",
+  "main": "index.js",
+  "bin": {
+    "create-myapp": "./index.js"
+  },
+  "keywords": [
+    "cli",
+    "node",
+    "createapp"
+  ],
+  "author": "shengKevin",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^1.2.0"
+  }
+}

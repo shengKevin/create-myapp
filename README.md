@@ -1,6 +1,6 @@
 ## create-myapp
 
-## 功能：生成react项目， 集成webpack，react-router，redux，react-redux，eject， es6
+## 功能：生成react项目， 集成webpack，react-router，redux，react-redux，eject， 支持es6
 
 ## 环境准备
 node

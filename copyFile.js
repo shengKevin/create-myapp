@@ -93,7 +93,7 @@ const createApp = () =>  {
                 // console.log('result==',result.length, result.slice(0, -1) == 'y');
                if (result.slice(0, -1) == 'y') {
                    travelFiles(app, cb, 'deleted', function () {
-                       delFiles.unshift(path.join(__dirname, name));
+                       delFiles.unshift(path.join(process.cwd(), name));
                        delFiles.reverse().forEach(dir => {
                            fs.rmdir(dir, function (err) {
                                if (err) throw err;
